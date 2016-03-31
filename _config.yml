@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: very-simple
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +71,17 @@ deploy:
   type: git
   repo: git@github.com:octgn/blog.git
   branch: gh-pages
+
+very_simple:
+  menu:
+    Home: /blog/
+    Archives: archives
+  social:
+    email: support@octgn.net
+    twitter: octgn-official
+    github: octgn
+    googleplus:
+    rss: /atom.xml
+  fancybox: true
+  duoshuo: #duoshuo_shortname
+  disqus: #disqus _shortname
