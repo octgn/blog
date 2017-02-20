@@ -9,7 +9,8 @@ Once you make your edits and you're satisfied, then just [Generate](https://hexo
 ## Initial Setup (Windows /w Chocolatey)
 
 #### Install Node.js
-	```Note: You'll probably want to exit your command prompt or powershell after this otherwise the `npm` command won't work```
+You'll probably want to exit your command prompt or powershell after this otherwise the `npm` command won't work
+
     cinst nodejs
 
 #### Install Hexo
