@@ -9,6 +9,7 @@ Once you make your edits and you're satisfied, then just [Generate](https://hexo
 ## Initial Setup (Windows /w Chocolatey)
 
 #### Install Node.js
+	```Note: You'll probably want to exit your command prompt or powershell after this otherwise the `npm` command won't work```
     cinst nodejs
 
 #### Install Hexo
@@ -18,5 +19,5 @@ Once you make your edits and you're satisfied, then just [Generate](https://hexo
     git clone --recursive git@github.com:octgn/blog.git
 
 #### Initialize Hexo
+	cd Blog
     npm install
-d
